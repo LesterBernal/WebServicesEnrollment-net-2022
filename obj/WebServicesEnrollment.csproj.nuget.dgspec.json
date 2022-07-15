@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\2022\\kinal\\net\\backend\\prod\\WebServicesEnrollment\\WebServicesEnrollment.csproj": {}
+  },
+  "projects": {
+    "C:\\2022\\kinal\\net\\backend\\prod\\WebServicesEnrollment\\WebServicesEnrollment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\2022\\kinal\\net\\backend\\prod\\WebServicesEnrollment\\WebServicesEnrollment.csproj",
+        "projectName": "WebServicesEnrollment",
+        "projectPath": "C:\\2022\\kinal\\net\\backend\\prod\\WebServicesEnrollment\\WebServicesEnrollment.csproj",
+        "packagesPath": "C:\\Users\\leste\\.nuget\\packages\\",
+        "outputPath": "C:\\2022\\kinal\\net\\backend\\prod\\WebServicesEnrollment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leste\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.28, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
